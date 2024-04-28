@@ -1,0 +1,120 @@
+    body {
+        background-image: linear-gradient(to top, rgb(135, 207, 235), white);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        background-attachment: fixed;
+    }
+    
+    .contain {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .containing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 100%;
+        /* Adjust this value if needed */
+        padding: 0;
+    }
+    
+    .wrapper {
+        width: 100%;
+        background: blue;
+        padding: 20px 30px;
+        background: skyblue;
+        border: 3px solid rgba(0, 0, 0, .2);
+        border-radius: 30px;
+        margin-bottom: 3%;
+    }
+    
+    .logs {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logs #logo1 {
+        min-width: 13%;
+        max-width: 13%;
+        height: auto;
+    }
+    
+    .logs #logoText {
+        backdrop-filter: blur(10px) saturation(70%);
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    td {
+        vertical-align: middle;
+    }
+    
+    #myInput {
+        background-image: url('/css/searchicon.png');
+        /* Add a search icon to input */
+        background-position: 10px 12px;
+        /* Position the search icon */
+        background-repeat: no-repeat;
+        /* Do not repeat the icon image */
+        width: 100%;
+        /* Full-width */
+        font-size: 16px;
+        /* Increase font-size */
+        border: 1px solid #ddd;
+        /* Add a grey border */
+        margin-bottom: 12px;
+        /* Add some space below the input */
+    }
+    
+    #myTable tr {
+        /* Add a bottom border to all table rows */
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #myTable tr.header,
+    #myTable tr:hover {
+        /* Add a grey background color to the table header and on hover */
+        background-color: #f1f1f1;
+    }
+    
+    .sidebar {
+        position: fixed;
+        margin: 0;
+        padding: 70px 0 0 10px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 100;
+        border-right: 5px solid #d3d3d3
+    }
+    
+    .left-sidebar {
+        position: sticky;
+        top: 0;
+        height: calc(100vh - 70px);
+    }
+    
+    .sidebar-nav {
+        color: #333;
+        font-weight: 500;
+    }
+    
+    .header-nav {
+        background-color: white;
+        color: black;
+        border-bottom: 1px solid rgba(0, 0, 255, 0.3);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
+        font-weight: 500;
+    }
+    
+    .sched {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 23px;
+        color: black;
+    }
